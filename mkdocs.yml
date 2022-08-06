@@ -1,0 +1,27 @@
+site_name: Studious Pancake
+theme:
+  name: material
+  features:
+    - header.autohide
+  palette:
+    scheme: default
+    primary: indigo
+    accent: deep orange
+
+nav:
+  - Home: 'index.md'
+  - About:
+    - 'License': 'license.md'
+    - 'Test': 'test.md'
+  - Architecture:
+    - 'Networking': 'test.md'
+    - 'Hosting': 'test.md'
+    - 'Security': 'test.md'
+  # - Components:
+  - Applications:
+    - 'Dave': 'test.md'
+    - 'Ian': 'test.md'
+    - 'Peter': 'test.md'
+  - Services:
+    - 'Fortknox': 'test.md'
+    - 'S3 Baby': 'test.md'
